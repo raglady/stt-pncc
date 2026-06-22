@@ -1,0 +1,15 @@
+[package]
+name = "stt-pncc"
+version = "1.0.0"
+edition = "2024"
+rust-version = "1.95"
+
+[features]
+default = []
+f32 = []
+f64 = []
+
+[dependencies]
+num-complex = "0.4.6"
+ndarray = { version = "0.17.2", features = ["matrixmultiply-threading", "rayon", ] }
+rustfft = "6.4.1"
