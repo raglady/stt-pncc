@@ -7,4 +7,5 @@ cfg_select! {
         mod F64;
         pub use F64::*;
     }
+    _ => {}
 }
